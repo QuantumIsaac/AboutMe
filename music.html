@@ -6,9 +6,9 @@
     <script src="audiomanager.js"></script>
     <script>
 		function Initialize(){
-			load_audio('pranava', 'pranava.mp3');
-			load_audio('dreams', 'drunk_on_dreams.mp3');
-			//load_audio('jungle', 'deep_jungle_walk.mp3');
+			load_audio('Pranava', 'pranava.mp3');
+			load_audio('Drunk On Dreams', 'drunk_on_dreams.mp3');
+			load_audio('Deep Jungle Walk', 'deep_jungle_walk.mp3');
 		}
 		
 		addEventListener('load', Initialize);
@@ -36,18 +36,24 @@
     <img src="astrix.png" class="space" alt="Astrix Banner" />
     <p class="no-indent">
 		Here are some samples of tunes I enjoy.
+		<br />
+		<br />
+		<span id="audio-controls">Now Playing: <span id="now-playing">Select a Sample</span>&nbsp;&nbsp;<a href="javascript:toggle()" id="toggler"></a></span>
+		<br />
+		<br />
+		<progress value="0" max="100" id="time-bar"></progress>
 		<ul>
-			<li>Pranava - First Drop <a href="javascript:play('pranava', 56, 111)">Play</a></li>
-			<li>Pranava - Break <a href="javascript:play('pranava', 181, 230)">Play</a></li>
-			<li>Drunk On Dreams - Build Up and Break <a href="javascript:play('dreams', 235, 364)">Play</a></li>
+			<li>Pranava - First Drop <a href="javascript:play('Pranava', 56, 111)">Play</a></li>
+			<li>Pranava - Break <a href="javascript:play('Pranava', 181, 230)">Play</a></li>
+			<li>Drunk On Dreams - Build Up and Break <a href="javascript:play('Drunk On Dreams', 235, 385)">Play</a></li>
+			<li>Deep Jungle Walk - Second Drop <a href="javascript:play('Deep Jungle Walk', 205, 315)">Play</a></li>
+			<li>Deep Jungle Walk - Climax <a href="javascript:play('Deep Jungle Walk', 371, 471)">Play</a></li>
 		</ul>
     </p>
     <p class="no-indent">
       Other Songs I like:
       <a href="https://soundcloud.com/nicolasxd/astrix-ritmo-agate">Agate</a>,
       <a href="https://soundcloud.com/astrix-official/acid-rocker">Acid Rocker</a>,
-      <a href="https://soundcloud.com/razzah/ace-ventura-astrix-pranava">Pranava</a>,
-      <a href="https://soundcloud.com/astrix-official/astrix-ace-ventura-drunk-on">Drunk on Dreams</a>,
       <a href="https://soundcloud.com/user-988612600/ritmo-ace-ventura-biological-computer">Biological Computer</a>
       <br />
       To be honest, there are too many songs which I enjoy to list, so here is a link to a fairly representative playlist:
