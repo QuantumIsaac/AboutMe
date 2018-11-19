@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="audiomanager.js"></script>
+    <script>
+		function Initialize(){
+			load_audio('pranava', 'pranava.mp3');
+			load_audio('dreams', 'drunk_on_dreams.mp3');
+			//load_audio('jungle', 'deep_jungle_walk.mp3');
+		}
+		
+		addEventListener('load', Initialize);
+    </script>
+  </head>
+  <body>
+    <h1 id="title">About Isaac Dorenkamp</h1>
+    <nav id="nav-main">
+      <a href="index.html">Home</a> |
+      <span class="current">Music</span> |
+      <a href="hobbies.html">Hobbies</a> |
+      <a href="beliefs.html">Beliefs</a>
+    </nav>
+    <p>
+      My primary music interest lies in a genre known as psychedelic trance (psytrance). In particular, my favorite
+      artist is Astrix, though I also enjoy Ace Venture, Ritmo, Infected Mushroom, Pixel, Alpha Portal, and yet others.
+      Infected Mushroom used to be my favorite music group, but once, when reading about them, I found out that they originally
+      produced a genre called "psytrance". I looked the word up and saw that Astrix was a prominent influence in the genre as
+      well. One late night, I played a couple of his songs on a speaker out of curiosity, and instantly, I loved what I heard.
+      I was enchanted by the mysterious atmosphere of <a href="https://www.youtube.com/watch?v=lIuEuJvKos4">Deep Jungle Walk</a>
+      , the colorful melodies of <a href="https://www.youtube.com/watch?v=M3v3R_PlrhI">He.Art</a>, in awe of the musical epic
+      that is <a href="https://www.youtube.com/watch?v=PgjmrA0_MOc&start=120">Shamanic Tales</a>, and moved by the vivid and
+      driving beat of <a href="https://www.youtube.com/watch?v=P6F-KErk7uE">Valley of Stevie</a>.
+    </p>
+    <img src="astrix.png" class="space" alt="Astrix Banner" />
+    <p class="no-indent">
+		Here are some samples of tunes I enjoy.
+		<ul>
+			<li>Pranava - First Drop <a href="javascript:play('pranava', 56, 111)">Play</a></li>
+			<li>Pranava - Break <a href="javascript:play('pranava', 181, 230)">Play</a></li>
+			<li>Drunk On Dreams - Build Up and Break <a href="javascript:play('dreams', 235, 364)">Play</a></li>
+		</ul>
+    </p>
+    <p class="no-indent">
+      Other Songs I like:
+      <a href="https://soundcloud.com/nicolasxd/astrix-ritmo-agate">Agate</a>,
+      <a href="https://soundcloud.com/astrix-official/acid-rocker">Acid Rocker</a>,
+      <a href="https://soundcloud.com/razzah/ace-ventura-astrix-pranava">Pranava</a>,
+      <a href="https://soundcloud.com/astrix-official/astrix-ace-ventura-drunk-on">Drunk on Dreams</a>,
+      <a href="https://soundcloud.com/user-988612600/ritmo-ace-ventura-biological-computer">Biological Computer</a>
+      <br />
+      To be honest, there are too many songs which I enjoy to list, so here is a link to a fairly representative playlist:
+      <a href="https://soundcloud.com/isaac-dorenkamp/sets/psytrance">Psytrance Playlist</a>
+      <br />
+      The playlist contains mostly the progressive (my favorite) and full-on varieties of psytrance. If you really want to
+      check out a more comprehensive guide, you can visit <a href="psytranceguide.com">this page</a>.
+    </p>
+  </body>
+</html>
